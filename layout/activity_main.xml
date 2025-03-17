@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="portrait"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteX="8dp"
+    tools:layout_editor_absoluteY="24dp">
+
+    <!--    <Spinner-->
+    <!--        android:id="@+id/uart_dev"-->
+    <!--        android:layout_width="145dp"-->
+    <!--        android:layout_height="50dp"-->
+    <!--        android:layout_marginStart="44dp"-->
+    <!--        android:entries="@array/uart_dev"-->
+    <!--        app:layout_constraintStart_toEndOf="@+id/button_guanbiyingguangjiance"-->
+    <!--        tools:ignore="MissingConstraints"-->
+    <!--        tools:layout_editor_absoluteY="22dp" />-->
+
+    <!--    <Spinner-->
+    <!--        android:id="@+id/uart_baud"-->
+    <!--        android:layout_width="120dp"-->
+    <!--        android:layout_height="50dp"-->
+    <!--        android:layout_marginStart="12dp"-->
+    <!--        android:entries="@array/uart_baud"-->
+    <!--        app:layout_constraintStart_toEndOf="@+id/uart_dev"-->
+    <!--        tools:ignore="MissingConstraints"-->
+    <!--        tools:layout_editor_absoluteY="22dp" />-->
+
+    <!-- 发送数字按钮 -->
+
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button_uartopen"-->
+    <!--        android:layout_width="90dp"-->
+    <!--        android:layout_height="48dp"-->
+    <!--        android:layout_marginStart="300dp"-->
+    <!--        android:onClick="uart_open"-->
+    <!--        android:text="@string/uart_open"-->
+    <!--        app:layout_constraintStart_toEndOf="@+id/button_poweroff"-->
+    <!--        tools:layout_editor_absoluteY="34dp" />-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button_uartclose"-->
+    <!--        android:layout_width="93dp"-->
+    <!--        android:layout_height="47dp"-->
+    <!--        android:layout_marginStart="412dp"-->
+    <!--        android:enabled="false"-->
+    <!--        android:onClick="uart_close"-->
+    <!--        android:text="@string/uart_close"-->
+    <!--        app:layout_constraintStart_toEndOf="@+id/button_poweroff"-->
+    <!--        tools:layout_editor_absoluteY="35dp" />-->
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/editText_uartsend"-->
+    <!--        android:layout_width="43dp"-->
+    <!--        android:layout_height="34dp"-->
+    <!--        android:layout_marginStart="28dp"-->
+    <!--        android:digits="0123456789ABCDEFabcdef"-->
+    <!--        android:ems="10"-->
+    <!--        android:gravity="top"-->
+    <!--        android:inputType="textMultiLine"-->
+    <!--        android:scrollbars="vertical"-->
+    <!--        android:singleLine="false"-->
+    <!--        android:text=""-->
+    <!--        app:layout_constraintStart_toEndOf="@+id/button_begin"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/button_uartsend"-->
+    <!--        tools:ignore="MissingConstraints" />-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button_uartsend"-->
+    <!--        android:layout_width="48dp"-->
+    <!--        android:layout_height="34dp"-->
+    <!--        android:layout_marginStart="20dp"-->
+    <!--        android:enabled="false"-->
+    <!--        android:onClick="uart_send"-->
+    <!--        android:text=""-->
+    <!--        app:layout_constraintStart_toEndOf="@+id/editText_uartsend"-->
+    <!--        tools:layout_editor_absoluteY="56dp" />-->
+
+    <!--        app:layout_constraintStart_toEndOf="@+id/button_uartsend"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/button_uartclose"-->
+    <!--        tools:ignore="MissingConstraints" />-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button_bufclean"-->
+    <!--        android:layout_width="57dp"-->
+    <!--        android:layout_height="0dp"-->
+    <!--        android:layout_marginStart="52dp"-->
+    <!--        android:layout_marginTop="44dp"-->
+    <!--        android:onClick="uart_bufclean"-->
+    <!--        android:text=" "-->
+    <!--        app:layout_constraintStart_toEndOf="@+id/editText_uartreceive"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/button_uartclose" />-->
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/editText_uartreceive"-->
+    <!--        android:layout_width="343dp"-->
+    <!--        android:layout_height="112dp"-->
+    <!--        android:layout_marginStart="56dp"-->
+    <!--        android:layout_marginTop="12dp"-->
+    <!--        android:ems="10"-->
+    <!--        android:gravity="top"-->
+    <!--        android:inputType="textMultiLine"-->
+    <!--        android:scrollbars="vertical"-->
+    <!--        android:singleLine="false"-->
+    <!--        android:text="接收区"-->
+    <!--        android:textIsSelectable="true"-->
+    <!--        app:layout_constraintStart_toEndOf="@+id/button_guanbiyingguangjiance"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/button_uartopen" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/textView9"-->
+    <!--        android:layout_width="57dp"-->
+    <!--        android:layout_height="50dp"-->
+    <!--        android:layout_marginStart="32dp"-->
+    <!--        android:gravity="center"-->
+    <!--        android:text="仅支持十六进制"-->
+    <!--        android:textSize="14sp"-->
+    <!--        app:layout_constraintStart_toEndOf="@+id/button_uartclose"-->
+    <!--        tools:layout_editor_absoluteY="40dp" />-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button_sendnumber"-->
+    <!--        android:layout_width="107dp"-->
+    <!--        android:layout_height="48dp"-->
+    <!--        android:layout_marginTop="20dp"-->
+    <!--        android:text="发送数字"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/button_begin"-->
+    <!--        tools:ignore="MissingConstraints"-->
+    <!--        tools:layout_editor_absoluteX="26dp" />-->
+
+    <!--        <EditText-->
+    <!--            android:id="@+id/editText_numberinput"-->
+    <!--            android:layout_width="124dp"-->
+    <!--            android:layout_height="49dp"-->
+    <!--            android:layout_marginTop="20dp"-->
+    <!--            android:hint="请输入温度"-->
+    <!--            android:inputType="number"-->
+    <!--            app:layout_constraintEnd_toEndOf="parent"-->
+    <!--            app:layout_constraintHorizontal_bias="0.0"-->
+    <!--            app:layout_constraintStart_toEndOf="@+id/button_poweroff"-->
+    <!--            app:layout_constraintTop_toBottomOf="@+id/button_begin" />-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button_yingguangjiance"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="52dp"-->
+    <!--        android:layout_marginBottom="92dp"-->
+    <!--        android:text="打开荧光探头"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintStart_toEndOf="@+id/Tep42" />-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button_poweroff"-->
+    <!--        android:layout_width="196dp"-->
+    <!--        android:layout_height="75dp"-->
+    <!--        android:layout_marginEnd="52dp"-->
+    <!--        android:layout_marginBottom="28dp"-->
+    <!--        android:onClick="system_poweroff"-->
+    <!--        android:text="@string/system_poweroff"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button_result"-->
+<!--        android:layout_width="349dp"-->
+<!--        android:layout_height="170dp"-->
+<!--        android:layout_marginTop="100dp"-->
+<!--        android:layout_marginEnd="100dp"-->
+<!--        android:background="@drawable/buttonshape2"-->
+<!--        android:fontFamily="@font/weiruan"-->
+<!--        android:text="输出结果"-->
+<!--        android:textColor="@android:color/white"-->
+<!--        android:textSize="50sp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+        <Button
+            android:id="@+id/button_qipaojiance"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="300dp"
+            android:background="@drawable/buttonshape2"
+            android:fontFamily="@font/weiruan"
+            android:text="气泡检测"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@+id/button_weightzero"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="150dp"
+        android:background="@drawable/buttonshape2"
+        android:fontFamily="@font/weiruan"
+        android:text="重量清零"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/qipaojiance"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="668dp"
+        android:layout_marginBottom="250dp"
+        android:fontFamily="@font/weiruan"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_yalijiance"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="300dp"
+        android:background="@drawable/buttonshape2"
+        android:fontFamily="@font/weiruan"
+        android:text="压力检测"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--    <TextView-->
+<!--        android:id="@+id/tvSentArray"-->
+<!--        android:layout_width="42dp"-->
+<!--        android:layout_height="48dp"-->
+<!--        android:layout_marginBottom="152dp"-->
+<!--        android:text=" "-->
+<!--        android:textColor="@android:color/black"-->
+<!--        android:textSize="16sp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/testresult1" />-->
+
+    <TextView
+        android:id="@+id/yalijiance"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="668dp"
+        android:layout_marginBottom="140dp"
+        android:fontFamily="@font/weiruan"
+        android:text=""
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_begin"
+        android:layout_width="349dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/buttonshape4"
+        android:fontFamily="@font/weiruan"
+        android:text="开始补液加热"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Tep42"
+        android:layout_width="349dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="@font/weiruan"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="349dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginBottom="0dp"
+        android:fontFamily="@font/weiruan"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/testresult1"
+        android:layout_width="349dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="@font/weiruan"
+        android:text=""
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button_return"
+        android:layout_width="110dp"
+        android:layout_height="51dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/buttonshape"
+        android:text="返回"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button_guanbiyingguangjiance"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="96dp"-->
+    <!--        android:layout_marginTop="8dp"-->
+    <!--        android:text="关闭荧光探头"-->
+    <!--        app:layout_constraintStart_toEndOf="@+id/button_begin"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/button_yingguangjiance" />-->
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/picture7"
+    tools:context=".secondActivity">
+
+    <Button
+        android:id="@+id/button_first"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginBottom="130dp"
+        android:background="@drawable/buttonshape"
+        android:fontFamily="@font/weiruan"
+        android:text="TEST"
+        android:textColor="#000000"
+        android:textSize="38sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_other"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="435dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonshape"
+        android:fontFamily="@font/weiruan"
+        android:text="CTRL"
+        android:textColor="#000000"
+        android:textSize="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_poweroff1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="130dp"
+        android:background="@drawable/buttonshape"
+        android:onClick="system_poweroff"
+        android:text="POWEROFF"
+        android:textColor="#000000"
+        android:textSize="38dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+    <Button
+        android:id="@+id/button_return3"
+        android:layout_width="110dp"
+        android:layout_height="51dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/buttonshape"
+        android:text="返回"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

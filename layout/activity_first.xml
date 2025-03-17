@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/picture10"
+    tools:context=".Firstactivity">
+
+
+<!--    <ImageView-->
+<!--        android:id="@+id/image_view1"-->
+<!--        android:layout_width="605dp"-->
+<!--        android:layout_height="479dp"-->
+<!--        android:layout_marginTop="-5dp"-->
+<!--        android:src="@drawable/picture1"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/image_view2"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:src="@drawable/picture2"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/image_view3"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/image_view3"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:src="@drawable/picture3"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/firsttext"-->
+<!--        android:layout_width="405dp"-->
+<!--        android:layout_height="101dp"-->
+<!--        android:layout_marginStart="8dp"-->
+<!--        android:layout_marginTop="104dp"-->
+<!--        android:background="@drawable/textview_border"-->
+<!--        android:fontFamily="@font/weiruan"-->
+<!--        android:text="POCT核酸检测仪"-->
+<!--        android:textColor="@android:color/black"-->
+<!--        android:textSize="48sp"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/image_view1"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button_begin2"-->
+<!--        android:layout_width="379dp"-->
+<!--        android:layout_height="194dp"-->
+<!--        android:layout_marginStart="472dp"-->
+<!--        android:layout_marginTop="204dp"-->
+<!--        android:background="@drawable/buttonshape4"-->
+<!--        android:fontFamily="@font/weiruan"-->
+<!--        android:text=" "-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        android:textSize="50sp"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
